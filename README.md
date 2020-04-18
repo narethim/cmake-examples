@@ -9,3 +9,9 @@ Example CMake projects
 ## Example2
 
 [Example2](example2/README.md)
+
+## References
+
+[CMake Documentation](https://cmake.org/cmake/help/v3.17/)
+
+[CMake Tutorial](https://cmake.org/cmake/help/v3.17/guide/tutorial/index.html)
