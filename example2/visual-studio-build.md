@@ -70,10 +70,9 @@ cmake --build build
 
 ## Run `hello.exe`
 
-The executable is located in  `build\Debug` directory.
+The executable is located in  `bin\Debug` directory.
 
 ```bat
-build\Debug\hello.exe
+bin\Debug\hello.exe
 Hello world!
-
 ```
