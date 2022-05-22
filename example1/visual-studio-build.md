@@ -1,6 +1,8 @@
-# Build using Visual Studio 2017
+# Build using Visual Studio
 
 ## Setup environment variables
+
+### for Visual Studio 2017 - Professional
 
 ```bat
 # Step1: Setup the VC environment
@@ -10,6 +12,24 @@
 # Step2: Setup MSBuild environment
 
 set PATH=%PATH%;"C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin"
+
+# Step3: Verify the versions
+
+cmake --version
+
+msbuild /version
+```
+
+### for Visual Studio 2022 - Community Edition
+
+```bat
+# Step1: Setup the VC environment
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvars32.bat"
+
+# Step2: Setup MSBuild environment
+
+set PATH=%PATH%;"C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin"
 
 # Step3: Verify the versions
 
